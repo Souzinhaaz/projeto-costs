@@ -35,7 +35,7 @@ function Projects() {
           setRemoveLoading(true);
         })
         .catch((err) => console.log(err));
-    }, 500)
+    }, 200)
   }, []);
 
   function removeProject(id) {
