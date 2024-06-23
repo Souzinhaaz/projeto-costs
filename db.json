@@ -8,8 +8,15 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 100,
+      "services": [
+        {
+          "name": "Meu novo serviço",
+          "cost": "100",
+          "description": "faz isso aqui",
+          "id": "874e36f3-57d7-45ed-86f3-81c50f1b5c87"
+        }
+      ]
     },
     {
       "id": "6b00",
@@ -41,8 +48,15 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": []
+      "cost": 500,
+      "services": [
+        {
+          "name": "Contratar DEV PHP",
+          "cost": "500",
+          "description": "Vai criar a função de envio de e-mails",
+          "id": "e6f5462a-fc77-461b-9ce4-65ba1a708bb3"
+        }
+      ]
     }
   ],
   "categories": [
